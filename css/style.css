@@ -45,6 +45,11 @@ background-size:16px 16px;
     color: #fff;
     padding: 15px;   
     box-sizing: border-box;
+    text-align: center;
+}
+.piano__heading {
+    color: red;
+    font-size: 1.6rem;
 }
 .piano__play-btn,
 select
@@ -64,11 +69,9 @@ select
     margin: 0 1px;
     background-color: #fff;
     border: 1px solid #000;
-    /* use box-sizing so the size of the border is not added to the size of the key */
     box-sizing: border-box;
     flex-grow: 1;
     text-align: center;
-    /* here 0 0 to left and right, and 8px 8px to left bottom and right bottom */
     border-radius: 0 0 8px 8px;
 }
 .empty-space {
@@ -80,7 +83,6 @@ select
     height: 60%;
     position: absolute;
     top: 0;
-    /* half the width of piano-key */
     left: -15px;
 }
 .piano__key--white {
